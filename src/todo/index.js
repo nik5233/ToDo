@@ -24,7 +24,6 @@ class index extends Component {
 
     addTask = (event) =>{
         event.preventDefault();
-        console.log(event.target[0].value === "")
 
         !(event.target[0].value === "") && this.setState({
             list : [...this.state.list, {task: event.target[0].value, status: ''}]
