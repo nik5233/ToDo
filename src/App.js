@@ -5,9 +5,9 @@ import TODO from './todo';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
           To-Do Application
-      </header>
+      </header> */}
       <TODO />
     </div>
   );
